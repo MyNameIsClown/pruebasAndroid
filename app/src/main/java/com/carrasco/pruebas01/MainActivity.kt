@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val tv = findViewById<TextView>(R.id.tvText)
         val paquitoImage = findViewById<ImageView>(R.id.paquito)
         paquitoImage.visibility = View.INVISIBLE
-        tv.text = "Hola Juan"
+        tv.text = "Hola Miguel"
         tv.visibility = View.INVISIBLE
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener{
